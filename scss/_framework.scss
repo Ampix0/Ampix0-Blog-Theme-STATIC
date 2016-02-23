@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.row {
+    flex-direction: column;
+}
+
+.col {
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+@media (min-width: 850px) {
+    .row {
+        flex-direction: row;
+    }
+    .panel-right {
+        min-width: 75%;
+        padding: 3rem;
+    }
+}

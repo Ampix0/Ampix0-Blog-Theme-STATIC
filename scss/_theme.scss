@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $font-base;
+    line-height: 1.5em;
+    color: $color-text;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+button,
+input {
+    margin: 0.5rem 0;
+}
+
+p {
+    padding: 1em;
+}
+
+.profile-img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+//Header Sizes
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+//=============//
+//====POSTS====//
+//=============//
+.card-post {
+    border: 1px solid $color-lightgrey;
+    margin-bottom: 1rem;
+    box-shadow: 0 0.25rem 0.8rem rgba($color-shadow, 0.4);
+}
+
+//POST STYLES
+.post-project {
+    header {
+        color: $color-red;
+    }
+    btn-primary {
+        background-color: $color-red;
+    }
+}
+
+.post-blog {
+    header {
+        color: $color-primary;
+    }
+    btn-primary {
+        background-color: $color-primary;
+    }
+}
+
+.post-other {
+    header {
+        color: $color-green;
+    }
+    btn-primary {
+        background-color: $color-green;
+    }
+}
+
+.panel-left {
+    text-align: center;
+    justify-content: space-around;
+    background-color: $color-red;
+    color: #FFF;
+}
+
+.panel-right {
+    header {
+        border-bottom: 0.15rem solid;
+    }
+}
