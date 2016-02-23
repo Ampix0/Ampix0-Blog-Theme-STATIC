@@ -1,8 +1,18 @@
 .btn-primary {
     font-weight: bold;
     color: #FFF;
-    display: inline-block;
+    text-decoration: none;
+    display: block;
     background-color: $color-red;
+    max-width: 10em;
+    text-align: center;
+    margin: 1em auto;
     padding: 0.5em 1em;
     border-radius: 1.2em;
+}
+
+.btn-primary-inverted {
+    @extend .btn-primary;
+    color: $color-red;
+    background-color: #FFF;
 }

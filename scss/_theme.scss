@@ -19,10 +19,6 @@ input {
     margin: 0.5rem 0;
 }
 
-p {
-    padding: 1em;
-}
-
 .profile-img {
     width: 50%;
     height: auto;
@@ -91,15 +87,20 @@ h4 {
     }
 }
 
+.post-body {
+    padding: 1em;
+}
+
 .panel-left {
     text-align: center;
     justify-content: space-around;
     background-color: $color-red;
     color: #FFF;
+    min-width: 20rem;
 }
 
 .panel-right {
     header {
-        border-bottom: 0.15rem solid;
+        border-bottom: 1px solid;
     }
 }
