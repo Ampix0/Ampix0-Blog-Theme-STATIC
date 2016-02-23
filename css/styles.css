@@ -242,3 +242,8 @@ h4 {
 
 .panel-right header {
   border-bottom: 1px solid; }
+
+.self-summery {
+  display: block;
+  margin: 1em auto;
+  max-width: 20rem; }
