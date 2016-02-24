@@ -2,7 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: $font-base;
-    line-height: 1.5em;
+    line-height: 1.8em;
     color: $color-text;
 }
 
@@ -19,10 +19,25 @@ input {
     margin: 0.5rem 0;
 }
 
+///////////////////////
+////////PROFILE///////
+//////////////////////
 .profile-img {
     width: 50%;
     height: auto;
     border-radius: 50%;
+    padding: 1em;
+}
+
+.profile-name {
+    line-height: 1rem;
+    padding: 0.5em;
+}
+
+.self-summery {
+    display: block;
+    margin: 1em auto;
+    max-width: 75%;
 }
 
 //Header Sizes
@@ -47,19 +62,20 @@ h2,
 h3,
 h4 {
     font-weight: bold;
-    padding: 0.5em;
 }
 
-//=============//
-//====POSTS====//
-//=============//
+///////////////////////
+//////////BLOG////////
+//////////////////////
 .card-post {
     border: 1px solid $color-lightgrey;
     margin-bottom: 1rem;
     box-shadow: 0 0.25rem 0.8rem rgba($color-shadow, 0.4);
+    header > h1 {
+        padding: 0.5em;
+    }
 }
 
-//POST STYLES
 .post-project {
     header {
         color: $color-red;
@@ -88,7 +104,10 @@ h4 {
 }
 
 .post-body {
-    padding: 1em;
+    padding: 2em;
+    p {
+        text-indent: 2em;
+    }
 }
 
 .panel-left {
@@ -106,8 +125,3 @@ h4 {
 }
 
 /////////////////////
-.self-summery {
-    display: block;
-    margin: 1em auto;
-    max-width: 20rem;
-}

@@ -168,7 +168,7 @@ table {
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
-  line-height: 1.5em;
+  line-height: 1.8em;
   color: rgba(0, 0, 0, 0.85); }
 
 p,
@@ -186,7 +186,17 @@ input {
 .profile-img {
   width: 50%;
   height: auto;
-  border-radius: 50%; }
+  border-radius: 50%;
+  padding: 1em; }
+
+.profile-name {
+  line-height: 1rem;
+  padding: 0.5em; }
+
+.self-summery {
+  display: block;
+  margin: 1em auto;
+  max-width: 75%; }
 
 h1 {
   font-size: 2em; }
@@ -204,13 +214,14 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: bold;
-  padding: 0.5em; }
+  font-weight: bold; }
 
 .card-post {
   border: 1px solid #cccccc;
   margin-bottom: 1rem;
   box-shadow: 0 0.25rem 0.8rem rgba(77, 77, 77, 0.4); }
+  .card-post header > h1 {
+    padding: 0.5em; }
 
 .post-project header {
   color: #FF6347; }
@@ -231,7 +242,9 @@ h4 {
   background-color: #34BB62; }
 
 .post-body {
-  padding: 1em; }
+  padding: 2em; }
+  .post-body p {
+    text-indent: 2em; }
 
 .panel-left {
   text-align: center;
@@ -242,8 +255,3 @@ h4 {
 
 .panel-right header {
   border-bottom: 1px solid; }
-
-.self-summery {
-  display: block;
-  margin: 1em auto;
-  max-width: 20rem; }
