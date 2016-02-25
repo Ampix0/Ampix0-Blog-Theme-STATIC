@@ -6,19 +6,6 @@ body {
     color: $color-text;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-span,
-button,
-input {
-    margin: 0.5rem 0;
-}
-
 ///////////////////////
 ////////PROFILE///////
 //////////////////////
@@ -67,18 +54,33 @@ h4 {
 ///////////////////////
 //////////BLOG////////
 //////////////////////
+///////////
+////POST
+//////////
 .card-post {
     border: 1px solid $color-lightgrey;
     margin-bottom: 1rem;
     box-shadow: 0 0.25rem 0.8rem rgba($color-shadow, 0.4);
-    header > h1 {
-        padding: 0.5em;
+    header {
+        h1 {
+            line-height: 2em;
+        }
+        .icon {
+            font-size: 2em;
+            padding: 0.5em;
+            vertical-align: top;
+            height: 1em;
+            width: 1em;
+        }
     }
 }
 
 .post-project {
     header {
         color: $color-red;
+        svg {
+            fill: $color-red;
+        }
     }
     btn-primary {
         background-color: $color-red;
@@ -88,6 +90,9 @@ h4 {
 .post-blog {
     header {
         color: $color-primary;
+        svg {
+            fill: $color-primary;
+        }
     }
     btn-primary {
         background-color: $color-primary;
@@ -97,6 +102,9 @@ h4 {
 .post-other {
     header {
         color: $color-green;
+        svg {
+            fill: $color-green;
+        }
     }
     btn-primary {
         background-color: $color-green;
@@ -110,18 +118,59 @@ h4 {
     }
 }
 
+.post-footer {
+    border-top: solid 1px $color-text;
+    font-size: 0.6em;
+    ul {
+        float: left;
+        list-style: none;
+        display: inline-block;
+    }
+    li {
+        float: left;
+        margin: 0.5em 0.5em;
+        padding: 0em 1em;
+        display: inline-block;
+    }
+}
+
+.post-tags {
+    li {
+        color: #FFF;
+        background-color: $color-primary;
+        border-radius: 2em;
+    }
+}
+
+.post-date {
+    height: 100%;
+    line-height: 4em;
+}
+
+///////////
+////Columns
+//////////
 .panel-left {
     text-align: center;
     justify-content: space-around;
     background-color: $color-red;
     color: #FFF;
     min-width: 20rem;
+    height: 100vh;
 }
 
 .panel-right {
+    overflow-y: scroll;
     header {
         border-bottom: 1px solid;
+        h1 {
+            display: inline-block;
+        }
+        icon {
+            display: inline-block;
+        }
     }
 }
 
 /////////////////////
+

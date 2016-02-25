@@ -1,0 +1,141 @@
+.icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(sprite.svg);
+}
+.icon-play {
+    width: 16px;
+    height: 16px;
+    background-position: 0 0;
+}
+.icon-price-tag {
+    width: 16px;
+    height: 16px;
+    background-position: -32px 0;
+}
+.icon-envelop {
+    width: 16px;
+    height: 16px;
+    background-position: -64px 0;
+}
+.icon-location {
+    width: 16px;
+    height: 16px;
+    background-position: -96px 0;
+}
+.icon-calendar {
+    width: 16px;
+    height: 16px;
+    background-position: -128px 0;
+}
+.icon-printer {
+    width: 16px;
+    height: 16px;
+    background-position: -160px 0;
+}
+.icon-display {
+    width: 16px;
+    height: 16px;
+    background-position: -192px 0;
+}
+.icon-laptop {
+    width: 16px;
+    height: 16px;
+    background-position: -224px 0;
+}
+.icon-mobile {
+    width: 16px;
+    height: 16px;
+    background-position: -256px 0;
+}
+.icon-tablet {
+    width: 16px;
+    height: 16px;
+    background-position: -288px 0;
+}
+.icon-bubble {
+    width: 16px;
+    height: 16px;
+    background-position: -320px 0;
+}
+.icon-bubbles2 {
+    width: 18px;
+    height: 16px;
+    background-position: -352px 0;
+}
+.icon-spinner6 {
+    width: 16px;
+    height: 16px;
+    background-position: -384px 0;
+}
+.icon-earth {
+    width: 16px;
+    height: 16px;
+    background-position: -416px 0;
+}
+.icon-link {
+    width: 16px;
+    height: 16px;
+    background-position: -448px 0;
+}
+.icon-share2 {
+    width: 16px;
+    height: 16px;
+    background-position: -480px 0;
+}
+.icon-google {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -32px;
+}
+.icon-facebook {
+    width: 16px;
+    height: 16px;
+    background-position: -32px -32px;
+}
+.icon-twitter {
+    width: 16px;
+    height: 16px;
+    background-position: -64px -32px;
+}
+.icon-youtube {
+    width: 16px;
+    height: 16px;
+    background-position: -96px -32px;
+}
+.icon-github {
+    width: 16px;
+    height: 16px;
+    background-position: -128px -32px;
+}
+.icon-reddit {
+    width: 16px;
+    height: 16px;
+    background-position: -160px -32px;
+}
+.icon-linkedin2 {
+    width: 16px;
+    height: 16px;
+    background-position: -192px -32px;
+}
+.icon-chrome {
+    width: 16px;
+    height: 16px;
+    background-position: -224px -32px;
+}
+.icon-firefox {
+    width: 16px;
+    height: 16px;
+    background-position: -256px -32px;
+}
+.icon-edge {
+    width: 16px;
+    height: 16px;
+    background-position: -288px -32px;
+}
+.icon-html-five2 {
+    width: 16px;
+    height: 16px;
+    background-position: -320px -32px;
+}
+
