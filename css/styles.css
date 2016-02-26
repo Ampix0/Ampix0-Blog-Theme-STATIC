@@ -149,7 +149,9 @@ table {
     min-width: 75%;
     padding: 3rem; }
   .wrapper {
-    max-height: 100vh; } }
+    max-height: 100vh; }
+  .btn-primary, .btn-primary-inverted, .btn-primary-inverted {
+    width: 10em; } }
 
 .btn-primary, .btn-primary-inverted {
   font-weight: bold;
@@ -157,7 +159,7 @@ table {
   text-decoration: none;
   display: block;
   background-color: #FF6347;
-  max-width: 10em;
+  max-width: 50%;
   text-align: center;
   margin: 1em auto;
   padding: 0.5em 1em;
