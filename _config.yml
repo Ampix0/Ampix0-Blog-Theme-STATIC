@@ -1,0 +1,2 @@
+baseurl: /Ampix0-Portfolio-Blog
+exclude: ['README.md', 'gulpfile.js']

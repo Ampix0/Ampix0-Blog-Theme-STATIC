@@ -150,7 +150,8 @@ table {
     padding: 3rem; }
   .wrapper {
     max-height: 100vh; }
-  .btn-primary, .btn-primary-inverted, .btn-primary-inverted {
+  .btn-primary, .btn-primary-inverted,
+  .btn-primary-inverted {
     width: 10em; } }
 
 .btn-primary, .btn-primary-inverted {
@@ -176,7 +177,7 @@ body {
   color: rgba(0, 0, 0, 0.85); }
 
 .profile-img {
-  width: 50%;
+  max-width: 50%;
   height: auto;
   border-radius: 50%;
   padding: 1em; }
